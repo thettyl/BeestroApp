@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39BB55421C8F1C6B00713507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB55411C8F1C6B00713507 /* AppDelegate.swift */; };
+		39BB55441C8F1C6B00713507 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB55431C8F1C6B00713507 /* ViewController.swift */; };
+		39BB55471C8F1C6B00713507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB55451C8F1C6B00713507 /* Main.storyboard */; };
+		39BB55491C8F1C6B00713507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BB55481C8F1C6B00713507 /* Assets.xcassets */; };
+		39BB554C1C8F1C6B00713507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB554A1C8F1C6B00713507 /* LaunchScreen.storyboard */; };
+		39BB55571C8F1C6C00713507 /* BeestroAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB55561C8F1C6C00713507 /* BeestroAppTests.swift */; };
+		39BB55621C8F1C6C00713507 /* BeestroAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB55611C8F1C6C00713507 /* BeestroAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39BB55531C8F1C6C00713507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39BB55361C8F1C6B00713507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39BB553D1C8F1C6B00713507;
+			remoteInfo = BeestroApp;
+		};
+		39BB555E1C8F1C6C00713507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39BB55361C8F1C6B00713507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39BB553D1C8F1C6B00713507;
+			remoteInfo = BeestroApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39BB553E1C8F1C6B00713507 /* BeestroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeestroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BB55411C8F1C6B00713507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39BB55431C8F1C6B00713507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39BB55461C8F1C6B00713507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39BB55481C8F1C6B00713507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39BB554B1C8F1C6B00713507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39BB554D1C8F1C6B00713507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BB55521C8F1C6C00713507 /* BeestroAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeestroAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BB55561C8F1C6C00713507 /* BeestroAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeestroAppTests.swift; sourceTree = "<group>"; };
+		39BB55581C8F1C6C00713507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BB555D1C8F1C6C00713507 /* BeestroAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeestroAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BB55611C8F1C6C00713507 /* BeestroAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeestroAppUITests.swift; sourceTree = "<group>"; };
+		39BB55631C8F1C6C00713507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39BB553B1C8F1C6B00713507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB554F1C8F1C6C00713507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB555A1C8F1C6C00713507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39BB55351C8F1C6B00713507 = {
+			isa = PBXGroup;
+			children = (
+				39BB55401C8F1C6B00713507 /* BeestroApp */,
+				39BB55551C8F1C6C00713507 /* BeestroAppTests */,
+				39BB55601C8F1C6C00713507 /* BeestroAppUITests */,
+				39BB553F1C8F1C6B00713507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39BB553F1C8F1C6B00713507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39BB553E1C8F1C6B00713507 /* BeestroApp.app */,
+				39BB55521C8F1C6C00713507 /* BeestroAppTests.xctest */,
+				39BB555D1C8F1C6C00713507 /* BeestroAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39BB55401C8F1C6B00713507 /* BeestroApp */ = {
+			isa = PBXGroup;
+			children = (
+				39BB55411C8F1C6B00713507 /* AppDelegate.swift */,
+				39BB55431C8F1C6B00713507 /* ViewController.swift */,
+				39BB55451C8F1C6B00713507 /* Main.storyboard */,
+				39BB55481C8F1C6B00713507 /* Assets.xcassets */,
+				39BB554A1C8F1C6B00713507 /* LaunchScreen.storyboard */,
+				39BB554D1C8F1C6B00713507 /* Info.plist */,
+			);
+			path = BeestroApp;
+			sourceTree = "<group>";
+		};
+		39BB55551C8F1C6C00713507 /* BeestroAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				39BB55561C8F1C6C00713507 /* BeestroAppTests.swift */,
+				39BB55581C8F1C6C00713507 /* Info.plist */,
+			);
+			path = BeestroAppTests;
+			sourceTree = "<group>";
+		};
+		39BB55601C8F1C6C00713507 /* BeestroAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39BB55611C8F1C6C00713507 /* BeestroAppUITests.swift */,
+				39BB55631C8F1C6C00713507 /* Info.plist */,
+			);
+			path = BeestroAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39BB553D1C8F1C6B00713507 /* BeestroApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BB55661C8F1C6C00713507 /* Build configuration list for PBXNativeTarget "BeestroApp" */;
+			buildPhases = (
+				39BB553A1C8F1C6B00713507 /* Sources */,
+				39BB553B1C8F1C6B00713507 /* Frameworks */,
+				39BB553C1C8F1C6B00713507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeestroApp;
+			productName = BeestroApp;
+			productReference = 39BB553E1C8F1C6B00713507 /* BeestroApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39BB55511C8F1C6C00713507 /* BeestroAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BB55691C8F1C6C00713507 /* Build configuration list for PBXNativeTarget "BeestroAppTests" */;
+			buildPhases = (
+				39BB554E1C8F1C6C00713507 /* Sources */,
+				39BB554F1C8F1C6C00713507 /* Frameworks */,
+				39BB55501C8F1C6C00713507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39BB55541C8F1C6C00713507 /* PBXTargetDependency */,
+			);
+			name = BeestroAppTests;
+			productName = BeestroAppTests;
+			productReference = 39BB55521C8F1C6C00713507 /* BeestroAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39BB555C1C8F1C6C00713507 /* BeestroAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BB556C1C8F1C6C00713507 /* Build configuration list for PBXNativeTarget "BeestroAppUITests" */;
+			buildPhases = (
+				39BB55591C8F1C6C00713507 /* Sources */,
+				39BB555A1C8F1C6C00713507 /* Frameworks */,
+				39BB555B1C8F1C6C00713507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39BB555F1C8F1C6C00713507 /* PBXTargetDependency */,
+			);
+			name = BeestroAppUITests;
+			productName = BeestroAppUITests;
+			productReference = 39BB555D1C8F1C6C00713507 /* BeestroAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39BB55361C8F1C6B00713507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = thettyl;
+				TargetAttributes = {
+					39BB553D1C8F1C6B00713507 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					39BB55511C8F1C6C00713507 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 39BB553D1C8F1C6B00713507;
+					};
+					39BB555C1C8F1C6C00713507 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 39BB553D1C8F1C6B00713507;
+					};
+				};
+			};
+			buildConfigurationList = 39BB55391C8F1C6B00713507 /* Build configuration list for PBXProject "BeestroApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39BB55351C8F1C6B00713507;
+			productRefGroup = 39BB553F1C8F1C6B00713507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39BB553D1C8F1C6B00713507 /* BeestroApp */,
+				39BB55511C8F1C6C00713507 /* BeestroAppTests */,
+				39BB555C1C8F1C6C00713507 /* BeestroAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39BB553C1C8F1C6B00713507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BB554C1C8F1C6B00713507 /* LaunchScreen.storyboard in Resources */,
+				39BB55491C8F1C6B00713507 /* Assets.xcassets in Resources */,
+				39BB55471C8F1C6B00713507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB55501C8F1C6C00713507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB555B1C8F1C6C00713507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39BB553A1C8F1C6B00713507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BB55441C8F1C6B00713507 /* ViewController.swift in Sources */,
+				39BB55421C8F1C6B00713507 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB554E1C8F1C6C00713507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BB55571C8F1C6C00713507 /* BeestroAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB55591C8F1C6C00713507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BB55621C8F1C6C00713507 /* BeestroAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39BB55541C8F1C6C00713507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39BB553D1C8F1C6B00713507 /* BeestroApp */;
+			targetProxy = 39BB55531C8F1C6C00713507 /* PBXContainerItemProxy */;
+		};
+		39BB555F1C8F1C6C00713507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39BB553D1C8F1C6B00713507 /* BeestroApp */;
+			targetProxy = 39BB555E1C8F1C6C00713507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39BB55451C8F1C6B00713507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BB55461C8F1C6B00713507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39BB554A1C8F1C6B00713507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BB554B1C8F1C6B00713507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39BB55641C8F1C6C00713507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39BB55651C8F1C6C00713507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39BB55671C8F1C6C00713507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeestroApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thettyl.BeestroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39BB55681C8F1C6C00713507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeestroApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thettyl.BeestroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39BB556A1C8F1C6C00713507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeestroAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thettyl.BeestroAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeestroApp.app/BeestroApp";
+			};
+			name = Debug;
+		};
+		39BB556B1C8F1C6C00713507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeestroAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thettyl.BeestroAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeestroApp.app/BeestroApp";
+			};
+			name = Release;
+		};
+		39BB556D1C8F1C6C00713507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeestroAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thettyl.BeestroAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeestroApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		39BB556E1C8F1C6C00713507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeestroAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thettyl.BeestroAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeestroApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39BB55391C8F1C6B00713507 /* Build configuration list for PBXProject "BeestroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BB55641C8F1C6C00713507 /* Debug */,
+				39BB55651C8F1C6C00713507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39BB55661C8F1C6C00713507 /* Build configuration list for PBXNativeTarget "BeestroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BB55671C8F1C6C00713507 /* Debug */,
+				39BB55681C8F1C6C00713507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39BB55691C8F1C6C00713507 /* Build configuration list for PBXNativeTarget "BeestroAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BB556A1C8F1C6C00713507 /* Debug */,
+				39BB556B1C8F1C6C00713507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39BB556C1C8F1C6C00713507 /* Build configuration list for PBXNativeTarget "BeestroAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BB556D1C8F1C6C00713507 /* Debug */,
+				39BB556E1C8F1C6C00713507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39BB55361C8F1C6B00713507 /* Project object */;
+}

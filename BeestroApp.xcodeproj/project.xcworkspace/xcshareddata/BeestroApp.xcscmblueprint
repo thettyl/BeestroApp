@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A4306357123F706AD5B215C5E3537A7F90A48479",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A4306357123F706AD5B215C5E3537A7F90A48479" : 0,
+    "210AC543A11B3AE5FC30F240F433F451B34F5CA9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "27BCB003-83FF-4715-8F0F-662473E3712C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A4306357123F706AD5B215C5E3537A7F90A48479" : "BeestroApp\/",
+    "210AC543A11B3AE5FC30F240F433F451B34F5CA9" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BeestroApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BeestroApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/milanrichardson\/BeestroApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "210AC543A11B3AE5FC30F240F433F451B34F5CA9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thettyl\/BeestroApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A4306357123F706AD5B215C5E3537A7F90A48479"
+    }
+  ]
+}

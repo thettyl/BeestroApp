@@ -484,6 +484,7 @@
 				39BB55681C8F1C6C00713507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39BB55691C8F1C6C00713507 /* Build configuration list for PBXNativeTarget "BeestroAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				39BB556B1C8F1C6C00713507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39BB556C1C8F1C6C00713507 /* Build configuration list for PBXNativeTarget "BeestroAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				39BB556E1C8F1C6C00713507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

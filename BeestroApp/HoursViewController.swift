@@ -14,6 +14,8 @@ class HoursViewController: UIViewController {
     @IBOutlet weak var hoursText: UITextView!
     @IBOutlet weak var statusLabel: UILabel!
     
+    var hours: [HoursData] = []
+    var alerts: [AlertData] = []
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder:aDecoder)
@@ -26,10 +28,35 @@ class HoursViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        HoursData.getObjectsWithCompletion( {(questions: [AnyObject]!, error: NSError!) -> () in
-    })
-    
+        HoursData.getObjectsWithCompletion( {(hours: [AnyObject]!, error: NSError!) -> () in
+            if error == nil{
+                self.hours = hours as! [HoursData]
+                self.hoursText.text = self.hours[0].hours
+                self.hoursText.hidden = false
+            } else{
+                print("error getting hours from baasbox")
+                
+                }
+            
+        })
+
+        
+        
+        
+        AlertData.getObjectsWithCompletion( {(alerts: [AnyObject]!, error: NSError!) -> () in
+            if error == nil{
+                self.alerts = alerts as! [AlertData]
+                self.alertText.text = self.alerts[0].alert
+                self.alertText.hidden = false
+            } else{
+                print("error getting alert from baasbox")
+            }
+        })
+        
+
+        
     }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,17 +68,16 @@ class HoursViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     override func viewWillAppear(animated: Bool) {
-    
-    
         super.viewWillAppear(animated)
         let client = BAAClient.sharedClient()
-        if client.isAuthenticated(){
-            statusLabel.text = "Click Here"
+        if !client.isAuthenticated(){
             self.navigationController?.performSegueWithIdentifier("showHours", sender: nil)
         }
-        hoursText.hidden = false
-        alertText.hidden = false
+        
+        
+
     
         }
 

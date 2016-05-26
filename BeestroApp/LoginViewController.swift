@@ -53,13 +53,13 @@ class LoginViewController: UIViewController {
             if success {
                 self.dismissViewControllerAnimated(true, completion: nil)
             } else {
+                print(error)
                 self.errorLabel.text = error.localizedDescription
             }
             })
     }
     
     @IBAction func signupTapped(sender: UIButton) {
-        
         client.createUserWithUsername(usernameField.text, password: passwordField.text, completion: { (success: Bool, error: NSError!) -> () in
             self.spinner.stopAnimating()
             self.loginButton.enabled = true
@@ -67,7 +67,8 @@ class LoginViewController: UIViewController {
             if success {
                 self.dismissViewControllerAnimated(true, completion: nil)
             } else {
-                self.errorLabel.text = error.localizedDescription
+                print(error)
+                self.errorLabel.text = "You already signed up"
             }
         })
     }

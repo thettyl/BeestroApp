@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392530911CF33C0C009881B1 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392530901CF33C0C009881B1 /* HomeTabBarViewController.swift */; };
+		3947235A1CF5FC2F006B9F38 /* StockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394723591CF5FC2F006B9F38 /* StockData.swift */; };
+		3947235C1CF5FF8F006B9F38 /* StockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947235B1CF5FF8F006B9F38 /* StockTableViewController.swift */; };
 		394B52EE1CDD13DF00EC73DF /* HoursData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B52ED1CDD13DF00EC73DF /* HoursData.swift */; };
 		395A7E591CDB9FBD00B5A9F8 /* BAAClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 395A7E4C1CDB9FBD00B5A9F8 /* BAAClient.m */; };
 		395A7E5A1CDB9FBD00B5A9F8 /* BAAFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 395A7E4E1CDB9FBD00B5A9F8 /* BAAFile.m */; };
@@ -16,6 +19,8 @@
 		395A7E5E1CDB9FBD00B5A9F8 /* BaasBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 395A7E561CDB9FBD00B5A9F8 /* BaasBox.m */; };
 		395A7E5F1CDB9FBD00B5A9F8 /* BAAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 395A7E581CDB9FBD00B5A9F8 /* BAAUser.m */; };
 		395EB0BD1CDA43DE0071E806 /* HoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395EB0BC1CDA43DE0071E806 /* HoursViewController.swift */; };
+		397526BB1CF49E800046AB8D /* AlertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397526BA1CF49E800046AB8D /* AlertData.swift */; };
+		397B98801CEB8FB30070479B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B987F1CEB8FB30070479B /* HomeViewController.swift */; };
 		39BB55421C8F1C6B00713507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB55411C8F1C6B00713507 /* AppDelegate.swift */; };
 		39BB55441C8F1C6B00713507 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB55431C8F1C6B00713507 /* ViewController.swift */; };
 		39BB55471C8F1C6B00713507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB55451C8F1C6B00713507 /* Main.storyboard */; };
@@ -23,7 +28,6 @@
 		39BB554C1C8F1C6B00713507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB554A1C8F1C6B00713507 /* LaunchScreen.storyboard */; };
 		39BB55571C8F1C6C00713507 /* BeestroAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB55561C8F1C6C00713507 /* BeestroAppTests.swift */; };
 		39BB55621C8F1C6C00713507 /* BeestroAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB55611C8F1C6C00713507 /* BeestroAppUITests.swift */; };
-		39BF68741CE35BAA00B7DAF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF68731CE35BAA00B7DAF0 /* HomeViewController.swift */; };
 		39BF68761CE35E0D00B7DAF0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF68751CE35E0D00B7DAF0 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		392530901CF33C0C009881B1 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		394723591CF5FC2F006B9F38 /* StockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockData.swift; sourceTree = "<group>"; };
+		3947235B1CF5FF8F006B9F38 /* StockTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockTableViewController.swift; sourceTree = "<group>"; };
 		394B52ED1CDD13DF00EC73DF /* HoursData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursData.swift; sourceTree = "<group>"; };
 		395A7E4A1CDB9FBC00B5A9F8 /* BeestroApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeestroApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		395A7E4B1CDB9FBD00B5A9F8 /* BAAClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAClient.h; sourceTree = "<group>"; };
@@ -62,6 +69,8 @@
 		395A7E571CDB9FBD00B5A9F8 /* BAAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAUser.h; sourceTree = "<group>"; };
 		395A7E581CDB9FBD00B5A9F8 /* BAAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAUser.m; sourceTree = "<group>"; };
 		395EB0BC1CDA43DE0071E806 /* HoursViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursViewController.swift; sourceTree = "<group>"; };
+		397526BA1CF49E800046AB8D /* AlertData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertData.swift; sourceTree = "<group>"; };
+		397B987F1CEB8FB30070479B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		39BB553E1C8F1C6B00713507 /* BeestroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeestroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BB55411C8F1C6B00713507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39BB55431C8F1C6B00713507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +84,6 @@
 		39BB555D1C8F1C6C00713507 /* BeestroAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeestroAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BB55611C8F1C6C00713507 /* BeestroAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeestroAppUITests.swift; sourceTree = "<group>"; };
 		39BB55631C8F1C6C00713507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39BF68731CE35BAA00B7DAF0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		39BF68751CE35E0D00B7DAF0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +115,9 @@
 		39BB55351C8F1C6B00713507 = {
 			isa = PBXGroup;
 			children = (
+				394723591CF5FC2F006B9F38 /* StockData.swift */,
+				3947235B1CF5FF8F006B9F38 /* StockTableViewController.swift */,
+				397B987F1CEB8FB30070479B /* HomeViewController.swift */,
 				39BB55401C8F1C6B00713507 /* BeestroApp */,
 				39BB55551C8F1C6C00713507 /* BeestroAppTests */,
 				39BB55601C8F1C6C00713507 /* BeestroAppUITests */,
@@ -144,10 +155,11 @@
 			children = (
 				39BB55411C8F1C6B00713507 /* AppDelegate.swift */,
 				394B52ED1CDD13DF00EC73DF /* HoursData.swift */,
+				397526BA1CF49E800046AB8D /* AlertData.swift */,
 				39BB55431C8F1C6B00713507 /* ViewController.swift */,
 				39BB55451C8F1C6B00713507 /* Main.storyboard */,
+				392530901CF33C0C009881B1 /* HomeTabBarViewController.swift */,
 				39BF68751CE35E0D00B7DAF0 /* LoginViewController.swift */,
-				39BF68731CE35BAA00B7DAF0 /* HomeViewController.swift */,
 				39BB55481C8F1C6B00713507 /* Assets.xcassets */,
 				395EB0BC1CDA43DE0071E806 /* HoursViewController.swift */,
 				39BB554A1C8F1C6B00713507 /* LaunchScreen.storyboard */,
@@ -305,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3947235C1CF5FF8F006B9F38 /* StockTableViewController.swift in Sources */,
 				395EB0BD1CDA43DE0071E806 /* HoursViewController.swift in Sources */,
 				395A7E5D1CDB9FBD00B5A9F8 /* BAAObject.m in Sources */,
 				394B52EE1CDD13DF00EC73DF /* HoursData.swift in Sources */,
@@ -312,12 +325,15 @@
 				395A7E5A1CDB9FBD00B5A9F8 /* BAAFile.m in Sources */,
 				395A7E5B1CDB9FBD00B5A9F8 /* BAAGlobals.m in Sources */,
 				395A7E5F1CDB9FBD00B5A9F8 /* BAAUser.m in Sources */,
+				392530911CF33C0C009881B1 /* HomeTabBarViewController.swift in Sources */,
+				3947235A1CF5FC2F006B9F38 /* StockData.swift in Sources */,
 				39BB55441C8F1C6B00713507 /* ViewController.swift in Sources */,
 				395A7E5C1CDB9FBD00B5A9F8 /* BAAMutableURLRequest.m in Sources */,
 				395A7E5E1CDB9FBD00B5A9F8 /* BaasBox.m in Sources */,
 				39BB55421C8F1C6B00713507 /* AppDelegate.swift in Sources */,
+				397B98801CEB8FB30070479B /* HomeViewController.swift in Sources */,
+				397526BB1CF49E800046AB8D /* AlertData.swift in Sources */,
 				39BF68761CE35E0D00B7DAF0 /* LoginViewController.swift in Sources */,
-				39BF68741CE35BAA00B7DAF0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -51,7 +51,8 @@ class LoginViewController: UIViewController {
             self.loginButton.enabled = true
             self.signupButton.enabled = true
             if success {
-                self.dismissViewControllerAnimated(true, completion: nil)
+                //self.dismissViewControllerAnimated(true, completion: nil)
+                self.navigationController?.performSegueWithIdentifier("showLogin", sender: nil)
             } else {
                 print(error)
                 self.errorLabel.text = error.localizedDescription

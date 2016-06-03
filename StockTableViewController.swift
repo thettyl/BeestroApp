@@ -59,7 +59,7 @@ class StockTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         print(stocks.count)
-        return 3
+        return stocks.count
     }
 
 

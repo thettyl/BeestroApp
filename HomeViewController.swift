@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import MessageUI
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     
     let client = BAAClient.sharedClient()
@@ -38,10 +39,70 @@ class HomeViewController: UIViewController {
         if !client.isAuthenticated(){
             self.navigationController?.performSegueWithIdentifier("showLogin", sender: nil)
         }
-        
-        
-        
     }
+    
+        /*
+        func sendEmail() {
+        if MFMailComposeViewController.canSendMail() {
+        let mail = MFMailComposeViewController()
+        mail.mailComposeDelegate = self
+        mail.setToRecipients(["kerry.robinson-mack@ssfs.org"])
+        mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
+        
+        presentViewController(mail, animated: true, completion: nil)
+        } else {
+        // show failure alert
+        }
+        
+        }
+        
+        func mailComposeController(controller: MFMailComposeViewController!, didFinishWithResult result: MFMailComposeResult, error: NSError!) {
+        controller.dismissViewControllerAnimated(true, completion: nil)
+        
+        }
+        */
+        
+    @IBAction func sendEmailButtonTapped(sender: AnyObject) {
+            let mailComposeViewController = configuredMailComposeViewController()
+            
+            if MFMailComposeViewController.canSendMail() {
+                self.presentViewController(mailComposeViewController, animated: true, completion: nil)
+            } else {
+                self.showSendMailErrorAlert()
+            }
+        }
+
+        func configuredMailComposeViewController() -> MFMailComposeViewController {
+            let mailComposerVC = MFMailComposeViewController()
+            mailComposerVC.mailComposeDelegate = self // Extremely important to set the --mailComposeDelegate-- property, NOT the --delegate-- property
+            
+            mailComposerVC.setToRecipients(["kerry.robinson-mack@ssfs.org"])
+            mailComposerVC.setSubject("May I Request Something for the Beestro?")
+            mailComposerVC.setMessageBody("I would like to request...", isHTML: false)
+            
+            return mailComposerVC
+        }
+        
+        //var alert=UIAlertController(title: "Alert 2", message: "Two is awesome too", preferredStyle: UIAlertControllerStyle.Alert)
+        func showSendMailErrorAlert() {
+            let sendMailErrorAlert = UIAlertController(title: "Could Not Send Email", message: "Your device could not send e-mail.  Please check e-mail configuration and try again.", preferredStyle: UIAlertControllerStyle.Alert)
+            showViewController(sendMailErrorAlert, sender: self)
+            print("failure")
+        }
+        
+        // MARK: MFMailComposeViewControllerDelegate
+        
+        
+    
+    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+        controller.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
+
+        
+
+
     
     
     /*

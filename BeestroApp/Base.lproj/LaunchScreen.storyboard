@@ -18,17 +18,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Beestro App!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kt2-sb-gq9">
-                                <rect key="frame" x="140" y="269" width="321" height="62"/>
+                                <rect key="frame" x="140" y="63" width="321" height="62"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="40"/>
                                 <color key="textColor" red="0.10567184152923796" green="0.45195926047120416" blue="0.31776729369128393" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where you can get your Beestly needs..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yli-mJ-WnY">
+                                <rect key="frame" x="140" y="466" width="321" height="28"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
+                                <color key="textColor" red="0.24371616597855761" green="0.65870418848167533" blue="0.38597134864996857" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-167.png" translatesAutoresizingMaskIntoConstraints="NO" id="zNj-ea-YGK">
+                                <rect key="frame" x="181" y="228" width="238" height="144"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="238" id="CRL-Ua-LhI"/>
+                                    <constraint firstAttribute="height" constant="144" id="Wdx-rk-XVJ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kt2-sb-gq9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0uw-wU-ybZ"/>
+                            <constraint firstItem="kt2-sb-gq9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-206" id="0uw-wU-ybZ"/>
+                            <constraint firstItem="Yli-mJ-WnY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="180" id="539-uc-R6z"/>
+                            <constraint firstItem="zNj-ea-YGK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8Lx-fV-9Wk"/>
+                            <constraint firstItem="Yli-mJ-WnY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="0.5" id="Bxo-oH-7D1"/>
+                            <constraint firstItem="zNj-ea-YGK" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="208" id="GYL-vU-O6P"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Yli-mJ-WnY" secondAttribute="bottom" constant="106" id="Khf-VT-Dl2"/>
+                            <constraint firstItem="zNj-ea-YGK" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gOT-U8-f6E"/>
                             <constraint firstItem="kt2-sb-gq9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="0.5" id="gk9-A6-1Zw"/>
-                            <constraint firstItem="kt2-sb-gq9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="plu-pf-vVl"/>
+                            <constraint firstItem="kt2-sb-gq9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-206" id="plu-pf-vVl"/>
                             <constraint firstItem="kt2-sb-gq9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="0.5" id="vce-9f-4gu"/>
                         </constraints>
                     </view>
@@ -38,4 +57,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icon-167.png" width="167" height="167"/>
+    </resources>
 </document>

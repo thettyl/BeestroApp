@@ -6,9 +6,11 @@
 //  Copyright © 2016 thettyl. All rights reserved.
 //
 
+import MessageUI
 import UIKit
 
-class HomeTabBarViewController: UITabBarController {
+
+class HomeTabBarViewController: UITabBarController, MFMailComposeViewControllerDelegate {
     
     let client = BAAClient.sharedClient()
     
@@ -38,9 +40,11 @@ class HomeTabBarViewController: UITabBarController {
             self.navigationController?.performSegueWithIdentifier("showLogin", sender: nil)
         }
         
-        
-        
     }
+    
+
+
+}
 
     /*
     // MARK: - Navigation
@@ -52,4 +56,5 @@ class HomeTabBarViewController: UITabBarController {
     }
     */
 
-}
+
+

@@ -24,21 +24,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Kerry at kerry.robinson-mack@ssfs.org" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbW-5f-NK9">
-                                <rect key="frame" x="100" y="152" width="401" height="28"/>
+                                <rect key="frame" x="100" y="118" width="401" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0Q-H4-G3p">
-                                <rect key="frame" x="121" y="233" width="358" height="30"/>
-                                <state key="normal" title="OR CLICK HERE TO GO STRAIGHT TO YOUR EMAIL!"/>
+                                <rect key="frame" x="253" y="176" width="95" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Send Email"/>
                                 <connections>
                                     <action selector="sendEmail:" destination="PV6-jP-wkQ" eventType="touchUpInside" id="SNk-KR-Rf5"/>
                                     <action selector="sendEmailButtonTapped:" destination="PV6-jP-wkQ" eventType="touchUpInside" id="mNg-uv-GJQ"/>
+                                    <action selector="sendMail:" destination="PV6-jP-wkQ" eventType="touchUpInside" id="UCx-lf-M8r"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagethinking.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Hc-NL-p5c">
-                                <rect key="frame" x="180" y="332" width="240" height="128"/>
+                                <rect key="frame" x="180" y="259" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="LvE-L8-Gwm"/>
                                     <constraint firstAttribute="height" constant="128" id="rjk-EI-lxn"/>
@@ -47,16 +49,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.58434806169999998" green="1" blue="0.57349427819999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="8Hc-NL-p5c" firstAttribute="centerY" secondItem="i9G-Rg-umj" secondAttribute="centerY" constant="96" id="37h-1r-6Cv"/>
-                            <constraint firstItem="dbW-5f-NK9" firstAttribute="top" secondItem="yPn-9A-yoT" secondAttribute="bottom" constant="132" id="6eo-nZ-DjN"/>
+                            <constraint firstItem="8Hc-NL-p5c" firstAttribute="centerY" secondItem="i9G-Rg-umj" secondAttribute="centerY" constant="23" id="37h-1r-6Cv"/>
+                            <constraint firstItem="dbW-5f-NK9" firstAttribute="top" secondItem="yPn-9A-yoT" secondAttribute="bottom" constant="98" id="6eo-nZ-DjN"/>
                             <constraint firstItem="dbW-5f-NK9" firstAttribute="centerX" secondItem="i9G-Rg-umj" secondAttribute="centerX" constant="0.5" id="LN2-UC-ncc"/>
                             <constraint firstItem="g0Q-H4-G3p" firstAttribute="centerX" secondItem="i9G-Rg-umj" secondAttribute="centerX" id="RkX-B2-KS1"/>
                             <constraint firstItem="8Hc-NL-p5c" firstAttribute="centerX" secondItem="i9G-Rg-umj" secondAttribute="centerX" id="S1w-fz-6vl"/>
-                            <constraint firstItem="g0Q-H4-G3p" firstAttribute="top" secondItem="yPn-9A-yoT" secondAttribute="bottom" constant="213" id="cFq-I9-tcg"/>
+                            <constraint firstItem="g0Q-H4-G3p" firstAttribute="top" secondItem="yPn-9A-yoT" secondAttribute="bottom" constant="156" id="cFq-I9-tcg"/>
                             <constraint firstItem="u5D-9g-QGr" firstAttribute="centerX" secondItem="i9G-Rg-umj" secondAttribute="centerX" id="ecp-cC-Pt2"/>
                             <constraint firstItem="u5D-9g-QGr" firstAttribute="top" secondItem="yPn-9A-yoT" secondAttribute="bottom" constant="33" id="i3d-th-gSf"/>
-                            <constraint firstItem="g0Q-H4-G3p" firstAttribute="centerY" secondItem="i9G-Rg-umj" secondAttribute="centerY" constant="-52" id="mEH-Vk-42U"/>
-                            <constraint firstItem="dbW-5f-NK9" firstAttribute="centerY" secondItem="i9G-Rg-umj" secondAttribute="centerY" constant="-134" id="tpj-kx-5uN"/>
+                            <constraint firstItem="g0Q-H4-G3p" firstAttribute="centerY" secondItem="i9G-Rg-umj" secondAttribute="centerY" constant="-109" id="mEH-Vk-42U"/>
+                            <constraint firstItem="dbW-5f-NK9" firstAttribute="centerY" secondItem="i9G-Rg-umj" secondAttribute="centerY" constant="-168" id="tpj-kx-5uN"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="REQUESTS" id="IJB-Ds-GPW"/>

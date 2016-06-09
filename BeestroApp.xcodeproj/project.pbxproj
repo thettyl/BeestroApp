@@ -260,6 +260,7 @@
 				TargetAttributes = {
 					39BB553D1C8F1C6B00713507 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 46K7K2BVRU;
 					};
 					39BB55511C8F1C6C00713507 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -484,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BeestroApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thettyl.BeestroApp;
@@ -498,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BeestroApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thettyl.BeestroApp;

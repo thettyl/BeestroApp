@@ -9,7 +9,7 @@
 import UIKit
 import MessageUI
 
-class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate {
+class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate, UITextFieldDelegate, UITextViewDelegate {
 
     
     let client = BAAClient.sharedClient()
@@ -40,7 +40,6 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
             self.navigationController?.performSegueWithIdentifier("showLogin", sender: nil)
         }
     }
-    
         /*
         func sendEmail() {
         if MFMailComposeViewController.canSendMail() {
@@ -61,7 +60,10 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         
         }
         */
-        
+    
+    
+
+    
     @IBAction func sendEmailButtonTapped(sender: AnyObject) {
             let mailComposeViewController = configuredMailComposeViewController()
             
@@ -100,9 +102,7 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
     
     
 
-        
-
-
+}
     
     
     /*
@@ -115,4 +115,4 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
     }
     */
     
-}
+
